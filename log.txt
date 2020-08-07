@@ -1,0 +1,42 @@
+""" 视频最后留有尾巴的badcase """
+
+Processing ./test_samples/b35d-169c-40af-9ed3-201d8855ed8e
+ori - http://video03.icocofun.com/omgvd/93/a4/b35d-169c-40af-9ed3-201d8855ed8e
+new - http://video03.icocofun.com/omgvd/9e/d1/7ec3-d597-11ea-9912-00163e02e64b
+{'tiktok': [[[0, 78, 0, 155], u'jtiktok', 'tiktok', 'inner', 0, 155],
+            [[858, 934, 346, 539], u'tiktok', 'tiktok', 'inner', 153, 652]]}
+{'tiktok': [[[0, 78, 0, 155], u'jtiktok', 'tiktok', 'inner', 0, 155],
+            [[858, 934, 346, 539], u'tiktok', 'tiktok', 'inner', 153, 660]]}
+
+
+Processing ./test_samples/470d-0a6f-40d4-ae74-5896a97b8ab4
+ori - http://video03.icocofun.com/omgvd/c4/02/470d-0a6f-40d4-ae74-5896a97b8ab4
+new - http://video03.icocofun.com/omgvd/12/81/fddd-d6c1-11ea-bcac-00163e027d11
+{'tiktok': [[[0, 51, 0, 114], u'tiktok', 'tiktok', 'inner', 0, 153],
+            [[644, 702, 426, 575], u'tiktok', 'tiktok', 'inner', 147, 541]]}
+{'tiktok': [[[0, 51, 0, 114], u'tiktok', 'tiktok', 'inner', 0, 153],
+            [[644, 702, 426, 575], u'tiktok', 'tiktok', 'inner', 147, 549]]}
+
+
+
+ori - http://video03.icocofun.com/omgvd/de/19/39e3-4196-4b78-9988-f84bf31c59c1
+new - http://video03.icocofun.com/omgvd/83/49/687f-d6d0-11ea-bcac-00163e027d11
+{'tiktok': [[[0, 47, 0, 102], u'tiktok', 'tiktok', 'inner', 0, 126],
+            [[569, 624, 375, 511], u'tiktok', 'tiktok', 'inner', 125, 660]]}
+{'tiktok': [[[0, 47, 0, 102], u'tiktok', 'tiktok', 'inner', 0, 126],
+            [[569, 624, 375, 511], u'tiktok', 'tiktok', 'inner', 125, 667]]}
+
+
+ori - http://video03.icocofun.com/omgvd/44/21/507c-7eb0-4be2-a03f-4a367d4c5035
+new - http://video03.icocofun.com/omgvd/83/57/8273-d792-11ea-9912-00163e02e64b
+{'tiktok': [[[0, 75, 0, 165], u'tiktok', 'tiktok', 'inner', 0, 153],
+            [[469, 548, 811, 1022], u'tiktok', 'tiktok', 'inner', 153, 900]]}
+
+
+================snack video的badcase=================
+
+ori - http://video03.icocofun.com/omgvd/ea/f4/44c6-d6e0-49c8-bc3a-e473aab966eb
+new - http://video03.icocofun.com/omgvd/a9/1b/c015-d6e3-11ea-bcac-00163e027d11
+{'snack': [[[0, 53, 0, 184], u'saackuiceo', 'snack', 'inner', 0, 767.475],
+            [[280, 335, 491, 639], u'saackdieeo', 'snack', 'inner', 0, 767.475],
+            [None, None, None, 'tail', 767.475, 846]]}
